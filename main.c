@@ -74,7 +74,7 @@ int main(void) {
                 
                 
                 
-                if(!(a > 0 && b > 0 && c > 0)){
+                else{ 
                     
                     printf("The entered number is not greater than zero. If you want to try entering sides again, please type \"yes\", if you do not - type \"no\":\n");
                     scanf("%s", lesszero1);
