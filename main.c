@@ -39,7 +39,6 @@ int main(void) {
     printf("\t Computed Triangle Properties:\n");
     area(a, b, c, p);
     perimeter(a, b, c);
-    hight(a, b, c, p);
     printf("\t The median to side a is: %f\n",  median(a, b, c));
     printf("\t The median to side b is: %f\n", median(b, a, c));
     printf("\t The median to side c is: %f\n", median(c, b, a));
